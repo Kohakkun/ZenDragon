@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Class - ZDA</title>
+    <link rel="icon" type="image/x-icon" href="./Icons/favicon.ico">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./DragonClassPage/dragonClass_style.css">
+    <script defer src="./common.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="navBarContainer">
+            <nav class="navBar">
+                <div class="containerLogo">
+                    <a href="./index.html" class="logo">
+                        <img src="./Home Page/Logo/Logo 1.png" alt="Logo ZDA">
+                    </a>
+                </div>
+                <button class="btnIcon" id="btn-bar-menu">
+                    <img src="./Icons/burger bar.png">
+                </button>
+                <div class="navTexts">
+                    <button class="btnIcon" id="btn-close-menu">
+                        <img src="./Icons/close icon.png">
+                    </button>
+                    <ul>
+                        <li class="navLinks" id="link-home"><a href="./index.html">HOME</a></li>
+                        <li class="navLinks" id="link-character"><a href="./newcharacterPage.html">CHARACTER</a></li>
+                        <li class="navLinks active" id="link-dragonclass"><a href="./dragonClassPage.html">DRAGON CLASS</a></li>
+                        <li class="navLinks" id="link-isle"><a href="./islandPage.html">ISLE OF BERK'S</a></li>
+                        <li id="btn-reg-container">
+                            <a href="./newregister.html">
+                                <button class="btnCta" id="btnReg">REGISTER</button>
+                            </a>
+                        </li>
+                        <li id="nav-user-info">
+                          <p id="nav-user">User</p>
+                          <div id="nav-logouser"><img src="./Home Page/Logo/User.png" alt="Logo User"></div>
+                        </li>
+                        <li id="btn-logout-container"><button class="btnCta" id="btnLogout">Log Out</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- CONTENT -->
+    <div class="mainCol">
+        <div class="wrapper">
+            <h3>DRAGON CLASS</h3>
+            <div class="container">
+                <input type="radio" name="slide" id="c1">
+                <label for="c1" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Blaze Icon.jpeg"></div>
+                        <h4>Blaze</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="blaze-dragon"><img src="./DragonClassPage/Blaze Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>From the heart of flames, the Blaze Dragon emerges, its reddish-orange scales ablaze with infernal heat. With every beat of its wings, it stirs the fires of destruction, leaving naught but scorched earth in its wake. A primal force of nature, it commands respect with its raw power and fiery intensity.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Frost Icon.jpeg"></div>
+                        <h4>Frost</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="frost-dragon"><img src="./DragonClassPage/Frost Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>In the icy depths, the Frost Dragon reigns, draped in pale blue ice that freezes the very air around it. With each breath, it exhales blizzards, casting an eternal winter upon the land. Yet amidst the frost, there is a haunting beauty, a mesmerizing allure that captivates all who behold it.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Wind Icon.jpeg"></div>
+                        <h4>Wind</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="wind-dragon"><img src="./DragonClassPage/Wind Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>Graceful and serene, the Wind Dragon glides through azure skies, its jade green scales shimmering with the essence of freedom. It whispers secrets of the air, guiding travelers with gentle breezes. A symbol of boundless possibility, it embodies the untamed spirit of the wind, a wanderer of endless horizons.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Thunder Icon.jpeg"></div>
+                        <h4>Thunder</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="thunder-dragon"><img src="./DragonClassPage/Thunder Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>In the realm of storms, the Thunder Dragon rules with crackling power, its thunderish yellow scales a beacon of electric might. Lightning dances at its command, heralding its approach with deafening roars. A tempest incarnate, it shapes the very skies, a force to be reckoned with, feared by all who witness its awe-inspiring presence.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c5">
+                <label for="c5" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Holy Icon.jpeg"></div>
+                        <h4>Holy</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="holy-dragon"><img src="./DragonClassPage/Holy Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>Radiant and pure, the Holy Dragon shines with platinum-white scales that gleam with divine light. A guardian of celestial realms, it brings blessings and solace to the troubled. Its presence is a beacon of hope, illuminating even the darkest of nights with the promise of salvation and redemption.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c6">
+                <label for="c6" class="cardClass">
+                    <div class="row topRow">
+                        <div class="icon"><img src="./DragonClassPage/Demonic Icon.jpeg"></div>
+                        <h4>Demonic</h4>
+                    </div>
+                    <div class="row centerImg">
+                        <div class="containerImg" id="demonic-dragon"><img src="./DragonClassPage/Demonic Dragon.png"></div>
+                    </div>
+                    <div class="row rowWrap">
+                        <div class="row desc">
+                            <p>From the depths of darkness, the Demonic Dragon emerges, its scales bathed in sinister purple hues that speak of malevolent intent. With eyes ablaze with unholy fire, it spreads chaos and corruption wherever it goes, twisting purity into wickedness with its venomous touch. A harbinger of despair, it instills fear in all who dare to cross its path.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div id="contactUs">
+            <h4>Contact Us</h4>
+            <div class="box-contactUs">
+                <img src="./Icons/phone.png" alt="Our Phone Number">
+                <p>(+62)81234512349</p>
+            </div>
+            <div class="box-contactUs">
+                <img src="./Icons/Mai.png" alt="Our Emails">
+                <p>henshin01@gmail.com</p>
+            </div>
+        </div>
+        <div id="logos-copyright">
+            <img src="./Home Page/Logo/Logo (Word) Invert.png" alt="Zen Dragon Academy Logo" id="logoZDA">
+            <div id="copyright">
+                <p>Copyright </p>
+                <img src="./Icons/Copyright icon.png" alt="copyright-logo" id="copyrightIcon">
+                <p>by Hansen Gunawan & William Valerie PPTI 17</p>
+            </div>
+            <p>All Rights Reserved.</p>
+        </div>
+        <div id="socialMedia-list">
+            <a href="https://www.facebook.com/?locale=id_ID">
+                <div class="sosmedIcon">
+                    <img src="./Icons/Facebook icon.png" alt="icon-fb" id="icon-fb">
+                </div>
+            </a>
+            <a href="https://www.instagram.com/">
+                <div class="sosmedIcon">
+                    <img src="./Icons/Instagram.png" alt="icon-ig">
+                </div>
+            </a>
+            <a href="https://twitter.com/?lang=id">
+                <div class="sosmedIcon">
+                    <img src="./Icons/X Icon.png" alt="icon-x">
+                </div>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

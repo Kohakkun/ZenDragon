@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Zen Dragon Academy</title>
+    <link rel="icon" type="image/x-icon" href="./Icons/favicon.ico">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./Home Page/newHome.css">
+    <script defer src="./common.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="navBarContainer">
+            <nav class="navBar">
+                <div class="containerLogo">
+                    <a href="./index.html" class="logo">
+                        <img src="./Home Page/Logo/Logo 1.png" alt="Logo ZDA">
+                    </a>
+                </div>
+                <button class="btnIcon" id="btn-bar-menu">
+                    <img src="./Icons/burger bar.png">
+                </button>
+                <div class="navTexts">
+                    <button class="btnIcon" id="btn-close-menu">
+                        <img src="./Icons/close icon.png">
+                    </button>
+                    <ul>
+                        <li class="navLinks active" id="link-home"><a href="./index.html">HOME</a></li>
+                        <li class="navLinks" id="link-character"><a href="./newcharacterPage.html">CHARACTER</a></li>
+                        <li class="navLinks" id="link-dragonclass"><a href="./dragonClassPage.html">DRAGON CLASS</a></li>
+                        <li class="navLinks" id="link-isle"><a href="./islandPage.html">ISLE OF BERK'S</a></li>
+                        <li id="btn-reg-container">
+                            <a href="./newregister.html">
+                                <button class="btnCta" id="btnReg">REGISTER</button>
+                            </a>
+                        </li>
+                        <li id="nav-user-info">
+                          <p id="nav-user">User</p>
+                          <div id="nav-logouser"><img src="./Home Page/Logo/User.png" alt="Logo User"></div>
+                        </li>
+                        <li id="btn-logout-container"><button class="btnCta" id="btnLogout">Log Out</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <main class="mainCol">
+        <section class="banner">
+            <img src="./Home Page/Logo/Logo (Word) Invert.png" alt="Logo Name">
+        </section>
+        <section class="slogan">
+          <h1>In the Heart of Fjords, Wisdom Takes Flight</h1>
+          <h5>Unlock your full potential and soar to new heights as you immerse yourself in the transformative<br>teachings of Zen philosophy and martial arts at Zen Dragon Academy<br>
+            where the harmonious fusion of mind, body, and spirit propels you<br>towards unparalleled personal growth and inner fulfillment.</h5>
+        </section>
+        <!-- VISION -->
+        <article class="vision">
+            <div class="containerVision">
+                <img src="./Home Page/Logo/Logo Visi Misi.png" alt="">
+            </div>
+            <h2>Vision</h2>
+            <h5>"Bound by unity, fortified by courage, and wielding the tools of knowledge <br>we forge a path of resilience and excellence."</h5>
+        </article>
+        <!-- MISSION -->
+        <article class="mission">
+            <h2>Mission</h2>
+            <div class="wrapperMission">
+            <div class="containerMission" id="mission1">
+                <p>Our quest: to fortify minds with valor, wielding the emblem of ancient guardians, uniting strength and wisdom in learning.</p>
+            </div>
+            <div class="containerMission" id="mission2">
+                <p>Embark on a journey to grasp the essence of ancient symbols, wielded in honor, amidst draconic trials.</p>
+            </div>
+            <div class="containerMission" id="mission3">
+                <p>Embrace ancestral lore, wielding noble relics, under the gaze of celestial dragons, safeguarding realms with valor</p>
+            </div>
+            </div>
+        </article>
+        <!-- FACILITIES SLIDER -->
+        <h2 id="subTitle">Facilities</h2>
+        <section class="facilities">
+            <div class="wrapper">
+              <span class="slider" id="slider1"></span>
+              <span class="slider" id="slider2"></span>
+              <span class="slider" id="slider3"></span>
+              <span class="slider" id="slider4"></span>
+              <span class="slider" id="slider5"></span>
+              <span class="slider" id="slider6"></span>
+              <span class="slider" id="slider7"></span>
+        
+              <div class="imgContainer">
+        
+                <div class="slide_div" id="slide_1">
+                  <img src="./Home Page/Facilities/Slide1_Classroom.jpg" alt="" class="facilImg" id="facil-img1">
+                  <a href="#slider1" class="buttonImg" id="button-img1">
+                    <div class="layer">
+                      <h3>Classroom</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_2">
+                  <img src="./Home Page/Facilities/Slide2_Smithy.jpg" alt="" class="facilImg" id="facil-img2">
+                  <a href="#slider2" class="buttonImg" id="button-img2">
+                    <div class="layer">
+                      <h3>Smithy</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_3">
+                  <img src="./Home Page/Facilities/Slide3_Tavern.jpg" alt="" class="facilImg" id="facil-img3">
+                  <a href="#slider3" class="buttonImg" id="button-img3">
+                    <div class="layer">
+                      <h3>Tavern</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_4">
+                  <img src="./Home Page/Facilities/Slide4_DragonHangar.jpg" alt="" class="facilImg" id="facil-img4">
+                  <a href="#slider4" class="buttonImg" id="button-img4">
+                    <div class="layer">
+                      <h3>Dragon</br>Hangar</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_5">
+                  <img src="./Home Page/Facilities/Slide5_Dorm.jpg" alt="" class="facilImg" id="facil-img5">
+                  <a href="#slider5" class="buttonImg" id="button-img5">
+                    <div class="layer">
+                      <h3>Dorm</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_6">
+                  <img src="./Home Page/Facilities/Slide6_TrainingFacility.jpeg" alt="" class="facilImg" id="facil-img6">
+                  <a href="#slider6" class="buttonImg" id="button-img6">
+                    <div class="layer">
+                      <h3>Training</br>Grounds</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide_div" id="slide_7">
+                  <img src="./Home Page/Facilities/Slide7_Library.jpeg" alt="" class="facilImg" id="facil-img7">
+                  <a href="#slider7" class="buttonImg" id="button-img7">
+                    <div class="layer">
+                      <h3>Library</h3>
+                    </div>
+                  </a>
+                </div>
+        
+              </div>
+            </div>
+        </section>
+        <!-- CTA -->
+        <section class="ctaRunningText">
+            <div class="scroll">
+            <div class="rightToLeft">
+                <p>Find The Most Suitable Dragon For Yourself</p>
+                <p>Find The Most Suitable Dragon For Yourself</p>
+                <p>Find The Most Suitable Dragon For Yourself</p>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div id="contactUs">
+            <h4>Contact Us</h4>
+            <div class="box-contactUs">
+                <img src="./Icons/phone.png" alt="Our Phone Number">
+                <p>(+62)81234512349</p>
+            </div>
+            <div class="box-contactUs">
+                <img src="./Icons/Mai.png" alt="Our Emails">
+                <p>henshin01@gmail.com</p>
+            </div>
+        </div>
+        <div id="logos-copyright">
+            <img src="./Home Page/Logo/Logo (Word) Invert.png" alt="Zen Dragon Academy Logo" id="logoZDA">
+            <div id="copyright">
+                <p>Copyright </p>
+                <img src="./Icons/Copyright icon.png" alt="copyright-logo" id="copyrightIcon">
+                <p>by Hansen Gunawan & William Valerie PPTI 17</p>
+            </div>
+            <p>All Rights Reserved.</p>
+        </div>
+        <div id="socialMedia-list">
+            <a href="https://www.facebook.com/?locale=id_ID">
+                <div class="sosmedIcon">
+                    <img src="./Icons/Facebook icon.png" alt="icon-fb" id="icon-fb">
+                </div>
+            </a>
+            <a href="https://www.instagram.com/">
+                <div class="sosmedIcon">
+                    <img src="./Icons/Instagram.png" alt="icon-ig">
+                </div>
+            </a>
+            <a href="https://twitter.com/?lang=id">
+                <div class="sosmedIcon">
+                    <img src="./Icons/X Icon.png" alt="icon-x">
+                </div>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
